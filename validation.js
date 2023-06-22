@@ -12,7 +12,7 @@ formValidation.addEventListener('submit', (v) => {
 
      if (formValidation.user.value == "admin" && formValidation.password.value == "admin")
      {
-        location.href = './index.html';
+        location.href = './form.html';
      }
 
 })
